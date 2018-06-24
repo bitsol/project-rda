@@ -1,0 +1,2841 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<math xmlns="http://www.w3.org/1998/Math/MathML" display="block">
+ <semantics>
+  <mtable>
+   <mtr>
+    <mtd>
+     <mrow>
+      <msub>
+       <mi>R</mi>
+       <mn>0</mn>
+      </msub>
+      <mrow>
+       <mrow>
+        <mo fence="true" stretchy="false">(</mo>
+        <mrow>
+         <mi>k</mi>
+        </mrow>
+        <mo fence="true" stretchy="false">)</mo>
+       </mrow>
+       <mo stretchy="false">=</mo>
+       <mrow>
+        <munderover>
+         <mo stretchy="false">∑</mo>
+         <mrow>
+          <mi>x</mi>
+          <mo stretchy="false">=</mo>
+          <mn>1</mn>
+         </mrow>
+         <mrow>
+          <mi>k</mi>
+          <mi>.</mi>
+          <mi mathvariant="italic">len</mi>
+         </mrow>
+        </munderover>
+        <msub>
+         <mi>log</mi>
+         <mroot>
+          <msub>
+           <mi>k</mi>
+           <mi>x</mi>
+          </msub>
+          <mn>4</mn>
+         </mroot>
+        </msub>
+       </mrow>
+      </mrow>
+      <mrow>
+       <mrow>
+        <mo fence="true" stretchy="false">(</mo>
+        <mrow>
+         <mi>s</mi>
+        </mrow>
+        <mo fence="true" stretchy="false">)</mo>
+       </mrow>
+       <mo stretchy="false">⊕</mo>
+       <mrow>
+        <munderover>
+         <mo stretchy="false">∑</mo>
+         <mrow>
+          <mi>x</mi>
+          <mo stretchy="false">=</mo>
+          <mn>1</mn>
+         </mrow>
+         <mn>6</mn>
+        </munderover>
+        <msub>
+         <mi>log</mi>
+         <mroot>
+          <msub>
+           <mi>k</mi>
+           <mi>x</mi>
+          </msub>
+          <mn>3</mn>
+         </mroot>
+        </msub>
+       </mrow>
+      </mrow>
+      <mrow>
+       <mo fence="true" stretchy="false">(</mo>
+       <mrow>
+        <msub>
+         <mi>r</mi>
+         <mi>i</mi>
+        </msub>
+       </mrow>
+       <mo fence="true" stretchy="false">)</mo>
+      </mrow>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <msub>
+       <mi>R</mi>
+       <mn>1</mn>
+      </msub>
+      <mrow>
+       <mrow>
+        <mo fence="true" stretchy="false">(</mo>
+        <mrow>
+         <mi>k</mi>
+        </mrow>
+        <mo fence="true" stretchy="false">)</mo>
+       </mrow>
+       <mo stretchy="false">=</mo>
+       <mrow>
+        <munderover>
+         <mo stretchy="false">∑</mo>
+         <mrow>
+          <mi>x</mi>
+          <mo stretchy="false">=</mo>
+          <mn>1</mn>
+         </mrow>
+         <mrow>
+          <mi>k</mi>
+          <mi>.</mi>
+          <mi mathvariant="italic">len</mi>
+         </mrow>
+        </munderover>
+        <mrow>
+         <munderover>
+          <mo stretchy="false">∑</mo>
+          <mrow>
+           <mi>i</mi>
+           <mo stretchy="false">=</mo>
+           <mn>1</mn>
+          </mrow>
+          <mn>6</mn>
+         </munderover>
+         <mi>arccos</mi>
+        </mrow>
+       </mrow>
+      </mrow>
+      <mrow>
+       <mrow>
+        <mo fence="true" stretchy="false">(</mo>
+        <mrow>
+         <mrow>
+          <mroot>
+           <msub>
+            <mi>k</mi>
+            <mi>x</mi>
+           </msub>
+           <mn>8</mn>
+          </mroot>
+          <mo stretchy="false">−</mo>
+          <mn>1</mn>
+         </mrow>
+        </mrow>
+        <mo fence="true" stretchy="false">)</mo>
+       </mrow>
+       <mo stretchy="false">−</mo>
+       <msub>
+        <mi>log</mi>
+        <mrow>
+         <mo fence="true" stretchy="false">(</mo>
+         <mrow>
+          <msubsup>
+           <mi>k</mi>
+           <mi>x</mi>
+           <mn>2</mn>
+          </msubsup>
+         </mrow>
+         <mo fence="true" stretchy="false">)</mo>
+        </mrow>
+       </msub>
+      </mrow>
+      <mrow>
+       <mrow>
+        <mo fence="true" stretchy="false">(</mo>
+        <mrow>
+         <msub>
+          <mi>r</mi>
+          <mi>i</mi>
+         </msub>
+        </mrow>
+        <mo fence="true" stretchy="false">)</mo>
+       </mrow>
+       <mo stretchy="false">⊕</mo>
+       <mrow>
+        <munderover>
+         <mo stretchy="false">∑</mo>
+         <mrow>
+          <mi>x</mi>
+          <mo stretchy="false">=</mo>
+          <mn>1</mn>
+         </mrow>
+         <mrow>
+          <mi>k</mi>
+          <mi>.</mi>
+          <mi mathvariant="italic">len</mi>
+         </mrow>
+        </munderover>
+        <mrow>
+         <munderover>
+          <mo stretchy="false">∑</mo>
+          <mrow>
+           <mi>i</mi>
+           <mo stretchy="false">=</mo>
+           <mn>1</mn>
+          </mrow>
+          <mn>6</mn>
+         </munderover>
+         <mrow>
+          <mo fence="true" stretchy="false">(</mo>
+          <mrow>
+           <mfrac>
+            <mn>1</mn>
+            <mrow>
+             <mi>arctan</mi>
+             <mrow>
+              <mrow>
+               <mo fence="true" stretchy="false">(</mo>
+               <mrow>
+                <mrow>
+                 <msub>
+                  <mi>k</mi>
+                  <mi>x</mi>
+                 </msub>
+                 <mo stretchy="false">⊕</mo>
+                 <msub>
+                  <mi>r</mi>
+                  <mi>i</mi>
+                 </msub>
+                </mrow>
+               </mrow>
+               <mo fence="true" stretchy="false">)</mo>
+              </mrow>
+              <mo stretchy="false">+</mo>
+              <mn>1</mn>
+             </mrow>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mo fence="true" stretchy="false">)</mo>
+         </mrow>
+        </mrow>
+       </mrow>
+      </mrow>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <msub>
+       <mi>R</mi>
+       <mn>2</mn>
+      </msub>
+      <mrow>
+       <mrow>
+        <mo fence="true" stretchy="false">(</mo>
+        <mrow>
+         <mi>k</mi>
+        </mrow>
+        <mo fence="true" stretchy="false">)</mo>
+       </mrow>
+       <mo stretchy="false">=</mo>
+       <mrow>
+        <mrow>
+         <munderover>
+          <mo stretchy="false">∑</mo>
+          <mrow>
+           <mi>x</mi>
+           <mo stretchy="false">=</mo>
+           <mn>1</mn>
+          </mrow>
+          <mrow>
+           <mi>k</mi>
+           <mi>.</mi>
+           <mi mathvariant="italic">len</mi>
+          </mrow>
+         </munderover>
+         <mrow>
+          <munderover>
+           <mo stretchy="false">∑</mo>
+           <mrow>
+            <mi>i</mi>
+            <mo stretchy="false">=</mo>
+            <mn>1</mn>
+           </mrow>
+           <mn>6</mn>
+          </munderover>
+          <msqrt>
+           <mrow>
+            <mrow>
+             <msubsup>
+              <mi>k</mi>
+              <mi>x</mi>
+              <mn>2</mn>
+             </msubsup>
+             <mo stretchy="false">+</mo>
+             <msubsup>
+              <mi>r</mi>
+              <mi>i</mi>
+              <mn>2</mn>
+             </msubsup>
+             <mo stretchy="false">−</mo>
+             <mn>2</mn>
+            </mrow>
+            <msub>
+             <mi>k</mi>
+             <mi>x</mi>
+            </msub>
+            <msub>
+             <mi>r</mi>
+             <mi>i</mi>
+            </msub>
+            <mi>cos</mi>
+            <mrow>
+             <mo fence="true" stretchy="false">(</mo>
+             <mrow>
+              <mi>S</mi>
+             </mrow>
+             <mo fence="true" stretchy="false">)</mo>
+            </mrow>
+           </mrow>
+          </msqrt>
+         </mrow>
+        </mrow>
+        <mo stretchy="false">⊕</mo>
+        <mrow>
+         <munderover>
+          <mo stretchy="false">∑</mo>
+          <mrow>
+           <mi>x</mi>
+           <mo stretchy="false">=</mo>
+           <mn>1</mn>
+          </mrow>
+          <mrow>
+           <mi>k</mi>
+           <mi>.</mi>
+           <mi mathvariant="italic">len</mi>
+          </mrow>
+         </munderover>
+         <mrow>
+          <munderover>
+           <mo stretchy="false">∑</mo>
+           <mrow>
+            <mi>i</mi>
+            <mo stretchy="false">=</mo>
+            <mn>1</mn>
+           </mrow>
+           <mn>6</mn>
+          </munderover>
+          <mi>ln</mi>
+         </mrow>
+        </mrow>
+       </mrow>
+      </mrow>
+      <mrow>
+       <mo fence="true" stretchy="false">(</mo>
+       <mrow>
+        <mroot>
+         <mrow>
+          <msub>
+           <mi>k</mi>
+           <mi>x</mi>
+          </msub>
+          <msub>
+           <mi>r</mi>
+           <mi>i</mi>
+          </msub>
+         </mrow>
+         <mn>5</mn>
+        </mroot>
+       </mrow>
+       <mo fence="true" stretchy="false">)</mo>
+      </mrow>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <msub>
+       <mi>R</mi>
+       <mn>3</mn>
+      </msub>
+      <mrow>
+       <mrow>
+        <mo fence="true" stretchy="false">(</mo>
+        <mrow>
+         <mi>k</mi>
+        </mrow>
+        <mo fence="true" stretchy="false">)</mo>
+       </mrow>
+       <mo stretchy="false">=</mo>
+       <mrow>
+        <mrow>
+         <munderover>
+          <mo stretchy="false">∑</mo>
+          <mrow>
+           <mi>x</mi>
+           <mo stretchy="false">=</mo>
+           <mn>1</mn>
+          </mrow>
+          <mrow>
+           <mi>k</mi>
+           <mi>.</mi>
+           <mi mathvariant="italic">len</mi>
+          </mrow>
+         </munderover>
+         <mrow>
+          <mo fence="true" stretchy="false">(</mo>
+          <mrow>
+           <mfrac>
+            <mn>1</mn>
+            <mrow>
+             <munderover>
+              <mo stretchy="false">∑</mo>
+              <mrow>
+               <mi>i</mi>
+               <mo stretchy="false">=</mo>
+               <mn>1</mn>
+              </mrow>
+              <mn>6</mn>
+             </munderover>
+             <mrow>
+              <mo fence="true" stretchy="true">|</mo>
+              <mrow>
+               <mrow>
+                <mi>sin</mi>
+                <mrow>
+                 <mo fence="true" stretchy="false">(</mo>
+                 <mrow>
+                  <mrow>
+                   <msub>
+                    <mi>log</mi>
+                    <mroot>
+                     <msub>
+                      <mi>k</mi>
+                      <mi>x</mi>
+                     </msub>
+                     <mn>5</mn>
+                    </mroot>
+                   </msub>
+                   <mrow>
+                    <mo fence="true" stretchy="false">(</mo>
+                    <mrow>
+                     <mrow>
+                      <msub>
+                       <mi>k</mi>
+                       <mi>x</mi>
+                      </msub>
+                      <mo stretchy="false">+</mo>
+                      <msub>
+                       <mi>r</mi>
+                       <mi>i</mi>
+                      </msub>
+                      <mo stretchy="false">+</mo>
+                      <mi>S</mi>
+                      <mo stretchy="false">+</mo>
+                      <mn>1</mn>
+                     </mrow>
+                    </mrow>
+                    <mo fence="true" stretchy="false">)</mo>
+                   </mrow>
+                  </mrow>
+                 </mrow>
+                 <mo fence="true" stretchy="false">)</mo>
+                </mrow>
+               </mrow>
+              </mrow>
+              <mo fence="true" stretchy="true">|</mo>
+             </mrow>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mo fence="true" stretchy="false">)</mo>
+         </mrow>
+        </mrow>
+        <mo stretchy="false">⊕</mo>
+        <mrow>
+         <munderover>
+          <mo stretchy="false">∑</mo>
+          <mrow>
+           <mi>x</mi>
+           <mo stretchy="false">=</mo>
+           <mn>1</mn>
+          </mrow>
+          <mrow>
+           <mi>k</mi>
+           <mi>.</mi>
+           <mi mathvariant="italic">len</mi>
+          </mrow>
+         </munderover>
+         <mrow>
+          <mo stretchy="false">∏</mo>
+          <mrow>
+           <mo fence="true" stretchy="false">(</mo>
+           <mrow>
+            <mrow>
+             <mfrac>
+              <mroot>
+               <msub>
+                <mi>k</mi>
+                <mi>x</mi>
+               </msub>
+               <mn>3</mn>
+              </mroot>
+              <msub>
+               <mi>r</mi>
+               <mi>i</mi>
+              </msub>
+             </mfrac>
+             <mo stretchy="false">+</mo>
+             <mn>1</mn>
+            </mrow>
+           </mrow>
+           <mo fence="true" stretchy="false">)</mo>
+          </mrow>
+         </mrow>
+        </mrow>
+       </mrow>
+      </mrow>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <msub>
+       <mi>R</mi>
+       <mn>4</mn>
+      </msub>
+      <mrow>
+       <mrow>
+        <mo fence="true" stretchy="false">(</mo>
+        <mrow>
+         <mi>k</mi>
+        </mrow>
+        <mo fence="true" stretchy="false">)</mo>
+       </mrow>
+       <mo stretchy="false">=</mo>
+       <mrow>
+        <mrow>
+         <munderover>
+          <mo stretchy="false">∑</mo>
+          <mrow>
+           <mi>x</mi>
+           <mo stretchy="false">=</mo>
+           <mn>1</mn>
+          </mrow>
+          <mrow>
+           <mi>k</mi>
+           <mi>.</mi>
+           <mi mathvariant="italic">len</mi>
+          </mrow>
+         </munderover>
+         <mrow>
+          <munderover>
+           <mo stretchy="false">∑</mo>
+           <mrow>
+            <mi>i</mi>
+            <mo stretchy="false">=</mo>
+            <mn>1</mn>
+           </mrow>
+           <mn>14</mn>
+          </munderover>
+          <mrow>
+           <mo fence="true" stretchy="false">(</mo>
+           <mrow>
+            <mfrac>
+             <mn>1</mn>
+             <mrow>
+              <msub>
+               <mi>log</mi>
+               <mroot>
+                <msub>
+                 <mi>k</mi>
+                 <mi>x</mi>
+                </msub>
+                <mn>3</mn>
+               </mroot>
+              </msub>
+              <mrow>
+               <mrow>
+                <mo fence="true" stretchy="false">(</mo>
+                <mrow>
+                 <msub>
+                  <mi>b</mi>
+                  <mi>i</mi>
+                 </msub>
+                </mrow>
+                <mo fence="true" stretchy="false">)</mo>
+               </mrow>
+               <mo stretchy="false">+</mo>
+               <mn>1</mn>
+              </mrow>
+             </mrow>
+            </mfrac>
+           </mrow>
+           <mo fence="true" stretchy="false">)</mo>
+          </mrow>
+         </mrow>
+        </mrow>
+        <mo stretchy="false">⊕</mo>
+        <mrow>
+         <munderover>
+          <mo stretchy="false">∑</mo>
+          <mrow>
+           <mi>x</mi>
+           <mo stretchy="false">=</mo>
+           <mn>1</mn>
+          </mrow>
+          <mrow>
+           <mi>k</mi>
+           <mi>.</mi>
+           <mi mathvariant="italic">len</mi>
+          </mrow>
+         </munderover>
+         <mrow>
+          <munderover>
+           <mo stretchy="false">∑</mo>
+           <mrow>
+            <mi>i</mi>
+            <mo stretchy="false">=</mo>
+            <mn>1</mn>
+           </mrow>
+           <mn>6</mn>
+          </munderover>
+          <mrow>
+           <mo fence="true" stretchy="true">|</mo>
+           <mrow>
+            <mrow>
+             <mo fence="true" stretchy="false">(</mo>
+             <mrow>
+              <mrow>
+               <mi>arcsin</mi>
+               <mrow>
+                <mo fence="true" stretchy="false">(</mo>
+                <mrow>
+                 <mrow>
+                  <mrow>
+                   <mo fence="true" stretchy="false">(</mo>
+                   <mrow>
+                    <mrow>
+                     <mroot>
+                      <msub>
+                       <mi>k</mi>
+                       <mi>x</mi>
+                      </msub>
+                      <mn>8</mn>
+                     </mroot>
+                     <mo stretchy="false">−</mo>
+                     <mn>1</mn>
+                    </mrow>
+                   </mrow>
+                   <mo fence="true" stretchy="false">)</mo>
+                  </mrow>
+                  <mi>sin</mi>
+                  <mrow>
+                   <mo fence="true" stretchy="false">(</mo>
+                   <mrow>
+                    <msub>
+                     <mi>r</mi>
+                     <mi>i</mi>
+                    </msub>
+                   </mrow>
+                   <mo fence="true" stretchy="false">)</mo>
+                  </mrow>
+                 </mrow>
+                </mrow>
+                <mo fence="true" stretchy="false">)</mo>
+               </mrow>
+              </mrow>
+             </mrow>
+             <mo fence="true" stretchy="false">)</mo>
+            </mrow>
+           </mrow>
+           <mo fence="true" stretchy="true">|</mo>
+          </mrow>
+         </mrow>
+        </mrow>
+       </mrow>
+      </mrow>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <msub>
+       <mi>R</mi>
+       <mn>5</mn>
+      </msub>
+      <mrow>
+       <mrow>
+        <mo fence="true" stretchy="false">(</mo>
+        <mrow>
+         <mi>k</mi>
+        </mrow>
+        <mo fence="true" stretchy="false">)</mo>
+       </mrow>
+       <mo stretchy="false">=</mo>
+       <mrow>
+        <munderover>
+         <mo stretchy="false">∑</mo>
+         <mrow>
+          <mi>x</mi>
+          <mo stretchy="false">=</mo>
+          <mn>1</mn>
+         </mrow>
+         <mrow>
+          <mi>k</mi>
+          <mi>.</mi>
+          <mi mathvariant="italic">len</mi>
+         </mrow>
+        </munderover>
+        <mrow>
+         <munderover>
+          <mo stretchy="false">∑</mo>
+          <mrow>
+           <mi>i</mi>
+           <mo stretchy="false">=</mo>
+           <mn>1</mn>
+          </mrow>
+          <mn>6</mn>
+         </munderover>
+         <mrow>
+          <mo fence="true" stretchy="false">(</mo>
+          <mrow>
+           <mrow>
+            <mrow>
+             <munderover>
+              <mo stretchy="false">∫</mo>
+              <mrow>
+               <mo stretchy="false">−</mo>
+               <mroot>
+                <mrow>
+                 <msub>
+                  <mi>k</mi>
+                  <mi>x</mi>
+                 </msub>
+                 <msub>
+                  <mi>r</mi>
+                  <mi>i</mi>
+                 </msub>
+                </mrow>
+                <mn>4</mn>
+               </mroot>
+              </mrow>
+              <mrow>
+               <msub>
+                <mi>r</mi>
+                <mi>i</mi>
+               </msub>
+               <mrow>
+                <mo fence="true" stretchy="true">|</mo>
+                <mrow>
+                 <mrow>
+                  <mi>cos</mi>
+                  <mrow>
+                   <mo fence="true" stretchy="false">(</mo>
+                   <mrow>
+                    <msqrt>
+                     <msub>
+                      <mi>k</mi>
+                      <mi>x</mi>
+                     </msub>
+                    </msqrt>
+                   </mrow>
+                   <mo fence="true" stretchy="false">)</mo>
+                  </mrow>
+                 </mrow>
+                </mrow>
+                <mo fence="true" stretchy="true">|</mo>
+               </mrow>
+              </mrow>
+             </munderover>
+             <mi>sin</mi>
+            </mrow>
+            <mrow>
+             <mo fence="true" stretchy="false">(</mo>
+             <mrow>
+              <mi>u</mi>
+             </mrow>
+             <mo fence="true" stretchy="false">)</mo>
+            </mrow>
+            <mi mathvariant="italic">du</mi>
+           </mrow>
+          </mrow>
+          <mo fence="true" stretchy="false">)</mo>
+         </mrow>
+        </mrow>
+       </mrow>
+      </mrow>
+      <msub>
+       <mi>log</mi>
+       <msub>
+        <mi>k</mi>
+        <mi>x</mi>
+       </msub>
+      </msub>
+      <mrow>
+       <mrow>
+        <mo fence="true" stretchy="false">(</mo>
+        <mrow>
+         <msub>
+          <mi>r</mi>
+          <mi>i</mi>
+         </msub>
+        </mrow>
+        <mo fence="true" stretchy="false">)</mo>
+       </mrow>
+       <mo stretchy="false">⊕</mo>
+       <mrow>
+        <munderover>
+         <mo stretchy="false">∑</mo>
+         <mrow>
+          <mi>x</mi>
+          <mo stretchy="false">=</mo>
+          <mn>1</mn>
+         </mrow>
+         <mrow>
+          <mi>k</mi>
+          <mi>.</mi>
+          <mi mathvariant="italic">len</mi>
+         </mrow>
+        </munderover>
+        <mrow>
+         <munderover>
+          <mo stretchy="false">∑</mo>
+          <mrow>
+           <mi>i</mi>
+           <mo stretchy="false">=</mo>
+           <mn>1</mn>
+          </mrow>
+          <mn>6</mn>
+         </munderover>
+         <mrow>
+          <mo stretchy="false">−</mo>
+          <mroot>
+           <mrow>
+            <mo fence="true" stretchy="true">|</mo>
+            <mrow>
+             <mrow>
+              <mi>cos</mi>
+              <mrow>
+               <mo fence="true" stretchy="false">(</mo>
+               <mrow>
+                <msqrt>
+                 <mi>x</mi>
+                </msqrt>
+               </mrow>
+               <mo fence="true" stretchy="false">)</mo>
+              </mrow>
+             </mrow>
+            </mrow>
+            <mo fence="true" stretchy="true">|</mo>
+           </mrow>
+           <mn>3</mn>
+          </mroot>
+         </mrow>
+        </mrow>
+       </mrow>
+      </mrow>
+      <msub>
+       <mi>log</mi>
+       <msub>
+        <mi>k</mi>
+        <mi>x</mi>
+       </msub>
+      </msub>
+      <msub>
+       <mi>r</mi>
+       <mi>i</mi>
+      </msub>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <msub>
+       <mi>R</mi>
+       <mn>6</mn>
+      </msub>
+      <mrow>
+       <mrow>
+        <mo fence="true" stretchy="false">(</mo>
+        <mrow>
+         <mi>k</mi>
+        </mrow>
+        <mo fence="true" stretchy="false">)</mo>
+       </mrow>
+       <mo stretchy="false">=</mo>
+       <mrow>
+        <mrow>
+         <mrow>
+          <munderover>
+           <mo stretchy="false">∑</mo>
+           <mrow>
+            <mi>x</mi>
+            <mo stretchy="false">=</mo>
+            <mn>1</mn>
+           </mrow>
+           <mrow>
+            <mi>k</mi>
+            <mi>.</mi>
+            <mi mathvariant="italic">len</mi>
+           </mrow>
+          </munderover>
+          <mrow>
+           <munderover>
+            <mo stretchy="false">∏</mo>
+            <mrow>
+             <mi>i</mi>
+             <mo stretchy="false">=</mo>
+             <mn>1</mn>
+            </mrow>
+            <mn>6</mn>
+           </munderover>
+           <mfrac>
+            <mrow>
+             <mi>arctan</mi>
+             <mrow>
+              <mo fence="true" stretchy="false">(</mo>
+              <mrow>
+               <mroot>
+                <mrow>
+                 <msub>
+                  <mi>r</mi>
+                  <mi>i</mi>
+                 </msub>
+                 <msub>
+                  <mi>k</mi>
+                  <mi>x</mi>
+                 </msub>
+                </mrow>
+                <mn>4</mn>
+               </mroot>
+              </mrow>
+              <mo fence="true" stretchy="false">)</mo>
+             </mrow>
+            </mrow>
+            <mrow>
+             <msub>
+              <mi>log</mi>
+              <msub>
+               <mi>k</mi>
+               <mi>x</mi>
+              </msub>
+             </msub>
+             <mrow>
+              <mo fence="true" stretchy="false">(</mo>
+              <mrow>
+               <mrow>
+                <mo fence="true" stretchy="true">|</mo>
+                <mrow>
+                 <mrow>
+                  <mi mathvariant="italic">csc</mi>
+                  <mrow>
+                   <mo fence="true" stretchy="false">(</mo>
+                   <mrow>
+                    <mrow>
+                     <msqrt>
+                      <mrow>
+                       <msub>
+                        <mi>k</mi>
+                        <mi>x</mi>
+                       </msub>
+                       <msub>
+                        <mi>r</mi>
+                        <mi>i</mi>
+                       </msub>
+                      </mrow>
+                     </msqrt>
+                     <mo stretchy="false">+</mo>
+                     <mi>S</mi>
+                    </mrow>
+                   </mrow>
+                   <mo fence="true" stretchy="false">)</mo>
+                  </mrow>
+                 </mrow>
+                </mrow>
+                <mo fence="true" stretchy="true">|</mo>
+               </mrow>
+              </mrow>
+              <mo fence="true" stretchy="false">)</mo>
+             </mrow>
+            </mrow>
+           </mfrac>
+          </mrow>
+         </mrow>
+         <mo stretchy="false">+</mo>
+         <mn>1</mn>
+        </mrow>
+        <mo stretchy="false">⊕</mo>
+        <mrow>
+         <munderover>
+          <mo stretchy="false">∑</mo>
+          <mrow>
+           <mi>x</mi>
+           <mo stretchy="false">=</mo>
+           <mn>1</mn>
+          </mrow>
+          <mrow>
+           <mi>k</mi>
+           <mi>.</mi>
+           <mi mathvariant="italic">len</mi>
+          </mrow>
+         </munderover>
+         <mrow>
+          <mo fence="true" stretchy="true">|</mo>
+          <mrow>
+           <mrow>
+            <mrow>
+             <munderover>
+              <mo stretchy="false">∫</mo>
+              <mrow>
+               <mo stretchy="false">−</mo>
+               <mn>25</mn>
+              </mrow>
+              <mn>25</mn>
+             </munderover>
+             <mi>cos</mi>
+            </mrow>
+            <mrow>
+             <mo fence="true" stretchy="false">(</mo>
+             <mrow>
+              <mrow>
+               <msub>
+                <mi>k</mi>
+                <mi>x</mi>
+               </msub>
+               <mi>u</mi>
+              </mrow>
+             </mrow>
+             <mo fence="true" stretchy="false">)</mo>
+            </mrow>
+            <mi mathvariant="italic">du</mi>
+           </mrow>
+          </mrow>
+          <mo fence="true" stretchy="true">|</mo>
+         </mrow>
+        </mrow>
+       </mrow>
+      </mrow>
+      <mrow>
+       <munderover>
+        <mo stretchy="false">∫</mo>
+        <mrow>
+         <mo stretchy="false">−</mo>
+         <mroot>
+          <msub>
+           <mi>k</mi>
+           <mi>x</mi>
+          </msub>
+          <mn>3</mn>
+         </mroot>
+        </mrow>
+        <msub>
+         <mi>k</mi>
+         <mi>x</mi>
+        </msub>
+       </munderover>
+       <mi>sin</mi>
+      </mrow>
+      <mrow>
+       <mrow>
+        <mo fence="true" stretchy="false">(</mo>
+        <mrow>
+         <mrow>
+          <mn>2</mn>
+          <mi>u</mi>
+         </mrow>
+        </mrow>
+        <mo fence="true" stretchy="false">)</mo>
+       </mrow>
+       <mo stretchy="false">+</mo>
+       <mn>1</mn>
+      </mrow>
+      <mi mathvariant="italic">du</mi>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <msub>
+       <mi>R</mi>
+       <mn>7</mn>
+      </msub>
+      <mrow>
+       <mrow>
+        <mo fence="true" stretchy="false">(</mo>
+        <mrow>
+         <mi>k</mi>
+        </mrow>
+        <mo fence="true" stretchy="false">)</mo>
+       </mrow>
+       <mo stretchy="false">=</mo>
+       <mrow>
+        <mrow>
+         <munderover>
+          <mo stretchy="false">∑</mo>
+          <mrow>
+           <mi>x</mi>
+           <mo stretchy="false">=</mo>
+           <mn>1</mn>
+          </mrow>
+          <mrow>
+           <mi>k</mi>
+           <mi>.</mi>
+           <mi mathvariant="italic">len</mi>
+          </mrow>
+         </munderover>
+         <mrow>
+          <munderover>
+           <mo stretchy="false">∏</mo>
+           <mrow>
+            <mi>i</mi>
+            <mo stretchy="false">=</mo>
+            <mn>1</mn>
+           </mrow>
+           <mn>6</mn>
+          </munderover>
+          <mrow>
+           <mo fence="true" stretchy="true">|</mo>
+           <mrow>
+            <mrow>
+             <mi>log</mi>
+             <mrow>
+              <mfrac>
+               <mrow>
+                <msub>
+                 <mi>k</mi>
+                 <mi>x</mi>
+                </msub>
+                <msub>
+                 <mi>r</mi>
+                 <mi>i</mi>
+                </msub>
+                <mtext>%</mtext>
+                <mrow>
+                 <mo fence="true" stretchy="false">⌈</mo>
+                 <mrow>
+                  <msqrt>
+                   <mrow>
+                    <msub>
+                     <mi>k</mi>
+                     <mi>x</mi>
+                    </msub>
+                    <mrow>
+                     <msub>
+                      <mi>r</mi>
+                      <mi>i</mi>
+                     </msub>
+                     <mo stretchy="false">+</mo>
+                     <msub>
+                      <mi>k</mi>
+                      <mi>x</mi>
+                     </msub>
+                     <mo stretchy="false">+</mo>
+                     <msub>
+                      <mi>r</mi>
+                      <mi>i</mi>
+                     </msub>
+                    </mrow>
+                   </mrow>
+                  </msqrt>
+                 </mrow>
+                 <mo fence="true" stretchy="false">⌉</mo>
+                </mrow>
+               </mrow>
+               <mrow>
+                <mi>arcsin</mi>
+                <mrow>
+                 <mo fence="true" stretchy="false">(</mo>
+                 <mrow>
+                  <mroot>
+                   <mfrac>
+                    <mroot>
+                     <mrow>
+                      <msub>
+                       <mi>k</mi>
+                       <mi>x</mi>
+                      </msub>
+                      <mrow>
+                       <msub>
+                        <mi>r</mi>
+                        <mi>i</mi>
+                       </msub>
+                       <mo stretchy="false">+</mo>
+                       <mi>cos</mi>
+                      </mrow>
+                      <mrow>
+                       <mo fence="true" stretchy="false">(</mo>
+                       <mrow>
+                        <mi>x</mi>
+                       </mrow>
+                       <mo fence="true" stretchy="false">)</mo>
+                      </mrow>
+                     </mrow>
+                     <mn>3</mn>
+                    </mroot>
+                    <mrow>
+                     <msub>
+                      <mi>k</mi>
+                      <mi>x</mi>
+                     </msub>
+                     <mo stretchy="false">+</mo>
+                     <msub>
+                      <mi>r</mi>
+                      <mi>i</mi>
+                     </msub>
+                    </mrow>
+                   </mfrac>
+                   <mn>8</mn>
+                  </mroot>
+                 </mrow>
+                 <mo fence="true" stretchy="false">)</mo>
+                </mrow>
+               </mrow>
+              </mfrac>
+              <mo stretchy="false">+</mo>
+              <mroot>
+               <msub>
+                <mi>k</mi>
+                <mi>x</mi>
+               </msub>
+               <mn>8</mn>
+              </mroot>
+             </mrow>
+            </mrow>
+           </mrow>
+           <mo fence="true" stretchy="true">|</mo>
+          </mrow>
+         </mrow>
+        </mrow>
+        <mo stretchy="false">⊕</mo>
+        <mrow>
+         <munderover>
+          <mo stretchy="false">∑</mo>
+          <mrow>
+           <mi>x</mi>
+           <mo stretchy="false">=</mo>
+           <mn>1</mn>
+          </mrow>
+          <mrow>
+           <mi>k</mi>
+           <mi>.</mi>
+           <mi mathvariant="italic">len</mi>
+          </mrow>
+         </munderover>
+         <mrow>
+          <munderover>
+           <mo stretchy="false">∑</mo>
+           <mrow>
+            <mi>i</mi>
+            <mo stretchy="false">=</mo>
+            <mn>1</mn>
+           </mrow>
+           <mn>6</mn>
+          </munderover>
+          <mfrac>
+           <mrow>
+            <msubsup>
+             <mi>k</mi>
+             <mi>x</mi>
+             <mn>2</mn>
+            </msubsup>
+            <mo stretchy="false">+</mo>
+            <msubsup>
+             <mi>r</mi>
+             <mi>i</mi>
+             <mn>2</mn>
+            </msubsup>
+            <mo stretchy="false">+</mo>
+            <mi>S</mi>
+            <mo stretchy="false">+</mo>
+            <mi>s</mi>
+           </mrow>
+           <mrow>
+            <mo fence="true" stretchy="true">|</mo>
+            <mrow>
+             <mrow>
+              <msub>
+               <mi>log</mi>
+               <msub>
+                <mi>k</mi>
+                <mi>x</mi>
+               </msub>
+              </msub>
+              <mrow>
+               <mo fence="true" stretchy="false">(</mo>
+               <mrow>
+                <mrow>
+                 <msub>
+                  <mi>k</mi>
+                  <mi>x</mi>
+                 </msub>
+                 <msub>
+                  <mi>r</mi>
+                  <mi>i</mi>
+                 </msub>
+                 <mtext>%</mtext>
+                 <mrow>
+                  <mo fence="true" stretchy="false">(</mo>
+                  <mrow>
+                   <mrow>
+                    <mrow>
+                     <mo fence="true" stretchy="false">(</mo>
+                     <mrow>
+                      <mrow>
+                       <msub>
+                        <mi>k</mi>
+                        <mi>x</mi>
+                       </msub>
+                       <mo stretchy="false">⊕</mo>
+                       <msub>
+                        <mi>r</mi>
+                        <mi>i</mi>
+                       </msub>
+                      </mrow>
+                     </mrow>
+                     <mo fence="true" stretchy="false">)</mo>
+                    </mrow>
+                    <mo stretchy="false">+</mo>
+                    <mn>6</mn>
+                    <mo stretchy="false">+</mo>
+                    <msub>
+                     <mi>r</mi>
+                     <mi>i</mi>
+                    </msub>
+                   </mrow>
+                  </mrow>
+                  <mo fence="true" stretchy="false">)</mo>
+                 </mrow>
+                </mrow>
+               </mrow>
+               <mo fence="true" stretchy="false">)</mo>
+              </mrow>
+             </mrow>
+            </mrow>
+            <mo fence="true" stretchy="true">|</mo>
+           </mrow>
+          </mfrac>
+         </mrow>
+        </mrow>
+       </mrow>
+      </mrow>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <msub>
+       <mi>R</mi>
+       <mn>8</mn>
+      </msub>
+      <mrow>
+       <mrow>
+        <mo fence="true" stretchy="false">(</mo>
+        <mrow>
+         <mi>k</mi>
+        </mrow>
+        <mo fence="true" stretchy="false">)</mo>
+       </mrow>
+       <mo stretchy="false">=</mo>
+       <mrow>
+        <mrow>
+         <munderover>
+          <mo stretchy="false">∑</mo>
+          <mrow>
+           <mi>x</mi>
+           <mo stretchy="false">=</mo>
+           <mn>1</mn>
+          </mrow>
+          <mrow>
+           <mi>k</mi>
+           <mi>.</mi>
+           <mi mathvariant="italic">len</mi>
+          </mrow>
+         </munderover>
+         <mrow>
+          <munderover>
+           <mo stretchy="false">∑</mo>
+           <mrow>
+            <mi>i</mi>
+            <mo stretchy="false">=</mo>
+            <mn>1</mn>
+           </mrow>
+           <mn>6</mn>
+          </munderover>
+          <mrow>
+           <msup>
+            <mrow>
+             <mo fence="true" stretchy="false">(</mo>
+             <mrow>
+              <mfrac>
+               <mrow>
+                <mrow>
+                 <mo fence="true" stretchy="true">|</mo>
+                 <mrow>
+                  <mrow>
+                   <mi>sin</mi>
+                   <mrow>
+                    <mo fence="true" stretchy="false">(</mo>
+                    <mrow>
+                     <msub>
+                      <mi>k</mi>
+                      <mi>x</mi>
+                     </msub>
+                    </mrow>
+                    <mo fence="true" stretchy="false">)</mo>
+                   </mrow>
+                  </mrow>
+                 </mrow>
+                 <mo fence="true" stretchy="true">|</mo>
+                </mrow>
+                <mroot>
+                 <mi>x</mi>
+                 <mn>3</mn>
+                </mroot>
+               </mrow>
+               <mi>x</mi>
+              </mfrac>
+             </mrow>
+             <mo fence="true" stretchy="false">)</mo>
+            </mrow>
+            <mrow>
+             <mo fence="true" stretchy="true">|</mo>
+             <mrow>
+              <mrow>
+               <mi>sin</mi>
+               <mrow>
+                <mo fence="true" stretchy="false">(</mo>
+                <mrow>
+                 <mrow>
+                  <msub>
+                   <mi>k</mi>
+                   <mi>x</mi>
+                  </msub>
+                  <msub>
+                   <mi>r</mi>
+                   <mi>i</mi>
+                  </msub>
+                 </mrow>
+                </mrow>
+                <mo fence="true" stretchy="false">)</mo>
+               </mrow>
+              </mrow>
+             </mrow>
+             <mo fence="true" stretchy="true">|</mo>
+            </mrow>
+           </msup>
+           <msubsup>
+            <mi>k</mi>
+            <mi>x</mi>
+            <mfrac>
+             <mn>5</mn>
+             <mn>6</mn>
+            </mfrac>
+           </msubsup>
+          </mrow>
+         </mrow>
+        </mrow>
+        <mo stretchy="false">⊕</mo>
+        <mrow>
+         <munderover>
+          <mo stretchy="false">∑</mo>
+          <mrow>
+           <mi>x</mi>
+           <mo stretchy="false">=</mo>
+           <mn>1</mn>
+          </mrow>
+          <mrow>
+           <mi>k</mi>
+           <mi>.</mi>
+           <mi mathvariant="italic">len</mi>
+          </mrow>
+         </munderover>
+         <mfrac>
+          <mrow>
+           <msubsup>
+            <mi>k</mi>
+            <mi>x</mi>
+            <mn>2</mn>
+           </msubsup>
+           <mo stretchy="false">+</mo>
+           <msubsup>
+            <mi>r</mi>
+            <mrow>
+             <mrow>
+              <mo fence="true" stretchy="false">⌊</mo>
+              <mrow>
+               <mroot>
+                <msub>
+                 <mi>k</mi>
+                 <mi>x</mi>
+                </msub>
+                <mn>3</mn>
+               </mroot>
+              </mrow>
+              <mo fence="true" stretchy="false">⌋</mo>
+             </mrow>
+             <mo stretchy="false">−</mo>
+             <mn>1</mn>
+            </mrow>
+            <mn>2</mn>
+           </msubsup>
+          </mrow>
+          <mrow>
+           <mi>log</mi>
+           <mrow>
+            <mo fence="true" stretchy="false">(</mo>
+            <mrow>
+             <mrow>
+              <msub>
+               <mi>k</mi>
+               <mi>x</mi>
+              </msub>
+              <msub>
+               <mi>r</mi>
+               <mi>i</mi>
+              </msub>
+             </mrow>
+            </mrow>
+            <mo fence="true" stretchy="false">)</mo>
+           </mrow>
+          </mrow>
+         </mfrac>
+        </mrow>
+       </mrow>
+      </mrow>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <msub>
+       <mi>R</mi>
+       <mn>9</mn>
+      </msub>
+      <mrow>
+       <mrow>
+        <mo fence="true" stretchy="false">(</mo>
+        <mrow>
+         <mi>k</mi>
+        </mrow>
+        <mo fence="true" stretchy="false">)</mo>
+       </mrow>
+       <mo stretchy="false">=</mo>
+       <mrow>
+        <mrow>
+         <munderover>
+          <mo stretchy="false">∑</mo>
+          <mrow>
+           <mi>x</mi>
+           <mo stretchy="false">=</mo>
+           <mn>1</mn>
+          </mrow>
+          <mrow>
+           <mi>k</mi>
+           <mi>.</mi>
+           <mi mathvariant="italic">len</mi>
+          </mrow>
+         </munderover>
+         <mrow>
+          <munderover>
+           <mo stretchy="false">∑</mo>
+           <mrow>
+            <mi>i</mi>
+            <mo stretchy="false">=</mo>
+            <mn>1</mn>
+           </mrow>
+           <mn>6</mn>
+          </munderover>
+          <mfrac>
+           <mrow>
+            <msub>
+             <mi>log</mi>
+             <msub>
+              <mi>r</mi>
+              <mi>i</mi>
+             </msub>
+            </msub>
+            <mrow>
+             <mo fence="true" stretchy="false">(</mo>
+             <mrow>
+              <mrow>
+               <mrow>
+                <mo fence="true" stretchy="false">(</mo>
+                <mrow>
+                 <mrow>
+                  <msub>
+                   <mi>k</mi>
+                   <mi>x</mi>
+                  </msub>
+                  <mo stretchy="false">⊕</mo>
+                  <msub>
+                   <mi>r</mi>
+                   <mi>i</mi>
+                  </msub>
+                 </mrow>
+                </mrow>
+                <mo fence="true" stretchy="false">)</mo>
+               </mrow>
+               <mo stretchy="false">+</mo>
+               <mn>1</mn>
+              </mrow>
+             </mrow>
+             <mo fence="true" stretchy="false">)</mo>
+            </mrow>
+           </mrow>
+           <mrow>
+            <mi>sin</mi>
+            <mrow>
+             <mrow>
+              <mo fence="true" stretchy="false">(</mo>
+              <mrow>
+               <msub>
+                <mi>k</mi>
+                <mi>x</mi>
+               </msub>
+              </mrow>
+              <mo fence="true" stretchy="false">)</mo>
+             </mrow>
+             <mo stretchy="false">+</mo>
+             <mn>1</mn>
+            </mrow>
+           </mrow>
+          </mfrac>
+         </mrow>
+        </mrow>
+        <mo stretchy="false">⊕</mo>
+        <mrow>
+         <munderover>
+          <mo stretchy="false">∑</mo>
+          <mrow>
+           <mi>x</mi>
+           <mo stretchy="false">=</mo>
+           <mn>1</mn>
+          </mrow>
+          <mrow>
+           <mi>k</mi>
+           <mi>.</mi>
+           <mi mathvariant="italic">len</mi>
+          </mrow>
+         </munderover>
+         <mrow>
+          <munderover>
+           <mo stretchy="false">∑</mo>
+           <mrow>
+            <mi>i</mi>
+            <mo stretchy="false">=</mo>
+            <mn>1</mn>
+           </mrow>
+           <mn>6</mn>
+          </munderover>
+          <mfrac>
+           <msup>
+            <mrow>
+             <mo fence="true" stretchy="true">|</mo>
+             <mrow>
+              <mrow>
+               <msub>
+                <mi>log</mi>
+                <msub>
+                 <mi>r</mi>
+                 <mi>i</mi>
+                </msub>
+               </msub>
+               <mrow>
+                <mrow>
+                 <mo fence="true" stretchy="false">(</mo>
+                 <mrow>
+                  <mrow>
+                   <mrow>
+                    <mo fence="true" stretchy="false">(</mo>
+                    <mrow>
+                     <mrow>
+                      <msub>
+                       <mi>k</mi>
+                       <mi>x</mi>
+                      </msub>
+                      <mo stretchy="false">⊕</mo>
+                      <msub>
+                       <mi>r</mi>
+                       <mi>i</mi>
+                      </msub>
+                      <mo stretchy="false">⊕</mo>
+                      <mi>S</mi>
+                     </mrow>
+                    </mrow>
+                    <mo fence="true" stretchy="false">)</mo>
+                   </mrow>
+                   <mo stretchy="false">+</mo>
+                   <mn>1</mn>
+                  </mrow>
+                 </mrow>
+                 <mo fence="true" stretchy="false">)</mo>
+                </mrow>
+                <mo stretchy="false">+</mo>
+                <msub>
+                 <mi>k</mi>
+                 <mi>x</mi>
+                </msub>
+               </mrow>
+              </mrow>
+             </mrow>
+             <mo fence="true" stretchy="true">|</mo>
+            </mrow>
+            <mn>3</mn>
+           </msup>
+           <mrow>
+            <mrow>
+             <mo fence="true" stretchy="false">(</mo>
+             <mrow>
+              <mrow>
+               <msubsup>
+                <mi>k</mi>
+                <mi>x</mi>
+                <mn>2</mn>
+               </msubsup>
+               <mo stretchy="false">⊕</mo>
+               <msubsup>
+                <mi>r</mi>
+                <mi>i</mi>
+                <mn>2</mn>
+               </msubsup>
+              </mrow>
+             </mrow>
+             <mo fence="true" stretchy="false">)</mo>
+            </mrow>
+            <mi>sin</mi>
+            <mrow>
+             <mrow>
+              <mo fence="true" stretchy="false">(</mo>
+              <mrow>
+               <msub>
+                <mi>k</mi>
+                <mi>x</mi>
+               </msub>
+              </mrow>
+              <mo fence="true" stretchy="false">)</mo>
+             </mrow>
+             <mo stretchy="false">+</mo>
+             <mn>1</mn>
+            </mrow>
+           </mrow>
+          </mfrac>
+         </mrow>
+        </mrow>
+       </mrow>
+      </mrow>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <msub>
+       <mi>R</mi>
+       <mn>10</mn>
+      </msub>
+      <mrow>
+       <mrow>
+        <mo fence="true" stretchy="false">(</mo>
+        <mrow>
+         <mi>k</mi>
+        </mrow>
+        <mo fence="true" stretchy="false">)</mo>
+       </mrow>
+       <mo stretchy="false">=</mo>
+       <mrow>
+        <mrow>
+         <munderover>
+          <mo stretchy="false">∑</mo>
+          <mrow>
+           <mi>x</mi>
+           <mo stretchy="false">=</mo>
+           <mn>1</mn>
+          </mrow>
+          <mrow>
+           <mi>k</mi>
+           <mi>.</mi>
+           <mi mathvariant="italic">len</mi>
+          </mrow>
+         </munderover>
+         <mfrac>
+          <mrow>
+           <msup>
+            <mi>e</mi>
+            <mroot>
+             <msub>
+              <mi>k</mi>
+              <mi>x</mi>
+             </msub>
+             <mn>3</mn>
+            </mroot>
+           </msup>
+           <mo stretchy="false">−</mo>
+           <msup>
+            <mi>e</mi>
+            <mrow>
+             <mo stretchy="false">−</mo>
+             <mroot>
+              <msub>
+               <mi>k</mi>
+               <mi>x</mi>
+              </msub>
+              <mn>3</mn>
+             </mroot>
+            </mrow>
+           </msup>
+          </mrow>
+          <mn>2</mn>
+         </mfrac>
+        </mrow>
+        <mo stretchy="false">⊕</mo>
+        <mrow>
+         <munderover>
+          <mo stretchy="false">∑</mo>
+          <mrow>
+           <mi>x</mi>
+           <mo stretchy="false">=</mo>
+           <mn>1</mn>
+          </mrow>
+          <mrow>
+           <mi>k</mi>
+           <mi>.</mi>
+           <mi mathvariant="italic">len</mi>
+          </mrow>
+         </munderover>
+         <mfrac>
+          <mn>1</mn>
+          <mrow>
+           <msub>
+            <mi>log</mi>
+            <msub>
+             <mi>k</mi>
+             <mi>x</mi>
+            </msub>
+           </msub>
+           <mrow>
+            <mo fence="true" stretchy="false">(</mo>
+            <mrow>
+             <mroot>
+              <mfrac>
+               <mrow>
+                <msup>
+                 <mi>e</mi>
+                 <mroot>
+                  <msub>
+                   <mi>k</mi>
+                   <mi>x</mi>
+                  </msub>
+                  <mn>3</mn>
+                 </mroot>
+                </msup>
+                <mo stretchy="false">+</mo>
+                <msup>
+                 <mi>e</mi>
+                 <mrow>
+                  <mo stretchy="false">−</mo>
+                  <mroot>
+                   <msub>
+                    <mi>k</mi>
+                    <mi>x</mi>
+                   </msub>
+                   <mn>3</mn>
+                  </mroot>
+                 </mrow>
+                </msup>
+               </mrow>
+               <mn>2</mn>
+              </mfrac>
+              <msqrt>
+               <mi>x</mi>
+              </msqrt>
+             </mroot>
+            </mrow>
+            <mo fence="true" stretchy="false">)</mo>
+           </mrow>
+          </mrow>
+         </mfrac>
+        </mrow>
+       </mrow>
+      </mrow>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <msub>
+       <mi>R</mi>
+       <mn>11</mn>
+      </msub>
+      <mrow>
+       <mrow>
+        <mo fence="true" stretchy="false">(</mo>
+        <mrow>
+         <mi>k</mi>
+        </mrow>
+        <mo fence="true" stretchy="false">)</mo>
+       </mrow>
+       <mo stretchy="false">=</mo>
+       <mrow>
+        <munderover>
+         <mo stretchy="false">∑</mo>
+         <mrow>
+          <mi>x</mi>
+          <mo stretchy="false">=</mo>
+          <mn>1</mn>
+         </mrow>
+         <mrow>
+          <mi>k</mi>
+          <mi>.</mi>
+          <mi mathvariant="italic">len</mi>
+         </mrow>
+        </munderover>
+        <msqrt>
+         <msub>
+          <mi>k</mi>
+          <mi>x</mi>
+         </msub>
+        </msqrt>
+       </mrow>
+      </mrow>
+      <msup>
+       <mrow>
+        <mo fence="true" stretchy="false">(</mo>
+        <mrow>
+         <mrow>
+          <msubsup>
+           <mi>k</mi>
+           <mi>x</mi>
+           <mn>2</mn>
+          </msubsup>
+          <mo stretchy="false">−</mo>
+          <msub>
+           <mi>k</mi>
+           <mi>x</mi>
+          </msub>
+          <mo stretchy="false">+</mo>
+          <msubsup>
+           <mi>k</mi>
+           <mi>x</mi>
+           <mn>3</mn>
+          </msubsup>
+          <mo stretchy="false">+</mo>
+          <mn>25</mn>
+         </mrow>
+        </mrow>
+        <mo fence="true" stretchy="false">)</mo>
+       </mrow>
+       <mfrac>
+        <mrow>
+         <mrow>
+          <mo stretchy="false">−</mo>
+          <mi mathvariant="italic">kx</mi>
+         </mrow>
+         <mfrac bevelled="true">
+          <mn>1</mn>
+          <mn>2</mn>
+         </mfrac>
+         <mi>cos</mi>
+         <mrow>
+          <mrow>
+           <mo fence="true" stretchy="false">(</mo>
+           <mrow>
+            <mrow>
+             <mi>e</mi>
+             <mi>π</mi>
+             <mi>x</mi>
+            </mrow>
+           </mrow>
+           <mo fence="true" stretchy="false">)</mo>
+          </mrow>
+          <mo stretchy="false">+</mo>
+          <mn>2</mn>
+         </mrow>
+         <mi>sin</mi>
+         <mrow>
+          <mo fence="true" stretchy="false">(</mo>
+          <mrow>
+           <mi>x</mi>
+          </mrow>
+          <mo fence="true" stretchy="false">)</mo>
+         </mrow>
+        </mrow>
+        <mi>x</mi>
+       </mfrac>
+      </msup>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <msub>
+       <mi>R</mi>
+       <mn>12</mn>
+      </msub>
+      <mrow>
+       <mrow>
+        <mo fence="true" stretchy="false">(</mo>
+        <mrow>
+         <mi>k</mi>
+        </mrow>
+        <mo fence="true" stretchy="false">)</mo>
+       </mrow>
+       <mo stretchy="false">=</mo>
+       <mrow>
+        <mfrac>
+         <mrow>
+          <munderover>
+           <mo stretchy="false">∑</mo>
+           <mrow>
+            <mi>x</mi>
+            <mo stretchy="false">=</mo>
+            <mn>1</mn>
+           </mrow>
+           <mrow>
+            <mi>k</mi>
+            <mi>.</mi>
+            <mi mathvariant="italic">len</mi>
+           </mrow>
+          </munderover>
+          <mrow>
+           <munderover>
+            <mo stretchy="false">∑</mo>
+            <mrow>
+             <mi>i</mi>
+             <mo stretchy="false">=</mo>
+             <mn>1</mn>
+            </mrow>
+            <mn>6</mn>
+           </munderover>
+           <mfrac>
+            <mrow>
+             <msubsup>
+              <mi>k</mi>
+              <mi>x</mi>
+              <mn>2</mn>
+             </msubsup>
+             <mrow>
+              <msub>
+               <mi>r</mi>
+               <mi>i</mi>
+              </msub>
+              <mo stretchy="false">+</mo>
+              <mi>s</mi>
+              <mo stretchy="false">+</mo>
+              <msub>
+               <mi>k</mi>
+               <mi>x</mi>
+              </msub>
+             </mrow>
+            </mrow>
+            <mrow>
+             <msub>
+              <mi>log</mi>
+              <mrow>
+               <mi>π</mi>
+               <msub>
+                <mi>k</mi>
+                <mi>x</mi>
+               </msub>
+              </mrow>
+             </msub>
+             <mrow>
+              <mo fence="true" stretchy="false">(</mo>
+              <mrow>
+               <mrow>
+                <mrow>
+                 <mo fence="true" stretchy="false">(</mo>
+                 <mrow>
+                  <mrow>
+                   <msub>
+                    <mi>k</mi>
+                    <mi>x</mi>
+                   </msub>
+                   <mo stretchy="false">+</mo>
+                   <msubsup>
+                    <mi>k</mi>
+                    <mi>x</mi>
+                    <mn>2</mn>
+                   </msubsup>
+                   <mo stretchy="false">+</mo>
+                   <msubsup>
+                    <mi>k</mi>
+                    <mi>x</mi>
+                    <mn>3</mn>
+                   </msubsup>
+                  </mrow>
+                 </mrow>
+                 <mo fence="true" stretchy="false">)</mo>
+                </mrow>
+                <mtext>%</mtext>
+                <mrow>
+                 <mo fence="true" stretchy="false">(</mo>
+                 <mrow>
+                  <mrow>
+                   <mrow>
+                    <mo fence="true" stretchy="false">⌈</mo>
+                    <mrow>
+                     <msqrt>
+                      <msub>
+                       <mi>k</mi>
+                       <mi>x</mi>
+                      </msub>
+                     </msqrt>
+                    </mrow>
+                    <mo fence="true" stretchy="false">⌉</mo>
+                   </mrow>
+                   <mo stretchy="false">+</mo>
+                   <mi>x</mi>
+                  </mrow>
+                 </mrow>
+                 <mo fence="true" stretchy="false">)</mo>
+                </mrow>
+               </mrow>
+              </mrow>
+              <mo fence="true" stretchy="false">)</mo>
+             </mrow>
+            </mrow>
+           </mfrac>
+          </mrow>
+         </mrow>
+         <mrow>
+          <munderover>
+           <mo stretchy="false">∑</mo>
+           <mrow>
+            <mi>x</mi>
+            <mo stretchy="false">=</mo>
+            <mn>1</mn>
+           </mrow>
+           <mrow>
+            <mi>k</mi>
+            <mi>.</mi>
+            <mi mathvariant="italic">len</mi>
+           </mrow>
+          </munderover>
+          <msqrt>
+           <mrow>
+            <mo fence="true" stretchy="true">|</mo>
+            <mrow>
+             <mrow>
+              <mfrac>
+               <mrow>
+                <mi>sin</mi>
+                <mrow>
+                 <mo fence="true" stretchy="false">(</mo>
+                 <mrow>
+                  <msqrt>
+                   <msub>
+                    <mi>k</mi>
+                    <mi>x</mi>
+                   </msub>
+                  </msqrt>
+                 </mrow>
+                 <mo fence="true" stretchy="false">)</mo>
+                </mrow>
+               </mrow>
+               <mrow>
+                <msub>
+                 <mi>log</mi>
+                 <msub>
+                  <mi>k</mi>
+                  <mi>x</mi>
+                 </msub>
+                </msub>
+                <mrow>
+                 <mo fence="true" stretchy="false">(</mo>
+                 <mrow>
+                  <mn>9</mn>
+                 </mrow>
+                 <mo fence="true" stretchy="false">)</mo>
+                </mrow>
+               </mrow>
+              </mfrac>
+              <mo stretchy="false">+</mo>
+              <mfrac>
+               <mrow>
+                <mi>cos</mi>
+                <mrow>
+                 <mo fence="true" stretchy="false">(</mo>
+                 <mrow>
+                  <msqrt>
+                   <msub>
+                    <mi>k</mi>
+                    <mi>x</mi>
+                   </msub>
+                  </msqrt>
+                 </mrow>
+                 <mo fence="true" stretchy="false">)</mo>
+                </mrow>
+               </mrow>
+               <mrow>
+                <mi>ln</mi>
+                <mrow>
+                 <mo fence="true" stretchy="false">(</mo>
+                 <mrow>
+                  <msqrt>
+                   <msub>
+                    <mi>k</mi>
+                    <mi>x</mi>
+                   </msub>
+                  </msqrt>
+                 </mrow>
+                 <mo fence="true" stretchy="false">)</mo>
+                </mrow>
+               </mrow>
+              </mfrac>
+             </mrow>
+            </mrow>
+            <mo fence="true" stretchy="true">|</mo>
+           </mrow>
+          </msqrt>
+         </mrow>
+        </mfrac>
+        <mo stretchy="false">⊕</mo>
+        <mrow>
+         <munderover>
+          <mo stretchy="false">∑</mo>
+          <mrow>
+           <mi>x</mi>
+           <mo stretchy="false">=</mo>
+           <mn>1</mn>
+          </mrow>
+          <mrow>
+           <mi>k</mi>
+           <mi>.</mi>
+           <mi mathvariant="italic">len</mi>
+          </mrow>
+         </munderover>
+         <mrow>
+          <mo fence="true" stretchy="true">|</mo>
+          <mrow>
+           <mfrac>
+            <mrow>
+             <mi>arcsin</mi>
+             <mrow>
+              <mo fence="true" stretchy="false">(</mo>
+              <mrow>
+               <mrow>
+                <mroot>
+                 <msub>
+                  <mi>k</mi>
+                  <mi>x</mi>
+                 </msub>
+                 <mn>5.1</mn>
+                </mroot>
+                <mo stretchy="false">−</mo>
+                <mn>2</mn>
+               </mrow>
+              </mrow>
+              <mo fence="true" stretchy="false">)</mo>
+             </mrow>
+            </mrow>
+            <mrow>
+             <mi>arccos</mi>
+             <mrow>
+              <mo fence="true" stretchy="false">(</mo>
+              <mrow>
+               <mrow>
+                <mroot>
+                 <msub>
+                  <mi>k</mi>
+                  <mi>x</mi>
+                 </msub>
+                 <mn>8</mn>
+                </mroot>
+                <mo stretchy="false">−</mo>
+                <mn>1</mn>
+               </mrow>
+              </mrow>
+              <mo fence="true" stretchy="false">)</mo>
+             </mrow>
+            </mrow>
+           </mfrac>
+          </mrow>
+          <mo fence="true" stretchy="true">|</mo>
+         </mrow>
+        </mrow>
+       </mrow>
+      </mrow>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <msub>
+       <mi>R</mi>
+       <mn>15</mn>
+      </msub>
+      <mrow>
+       <mrow>
+        <mo fence="true" stretchy="false">(</mo>
+        <mrow>
+         <mi>k</mi>
+        </mrow>
+        <mo fence="true" stretchy="false">)</mo>
+       </mrow>
+       <mo stretchy="false">=</mo>
+       <mrow>
+        <mfrac>
+         <mrow>
+          <mrow>
+           <munderover>
+            <mo stretchy="false">∑</mo>
+            <mrow>
+             <mi>i</mi>
+             <mo stretchy="false">=</mo>
+             <mn>1</mn>
+            </mrow>
+            <mn>6</mn>
+           </munderover>
+           <mrow>
+            <munderover>
+             <mo stretchy="false">∑</mo>
+             <mrow>
+              <mi>x</mi>
+              <mo stretchy="false">=</mo>
+              <mn>1</mn>
+             </mrow>
+             <mrow>
+              <mi>k</mi>
+              <mi>.</mi>
+              <mi mathvariant="italic">len</mi>
+             </mrow>
+            </munderover>
+            <mi>ln</mi>
+           </mrow>
+          </mrow>
+          <mrow>
+           <mrow>
+            <mo fence="true" stretchy="false">(</mo>
+            <mrow>
+             <mrow>
+              <mrow>
+               <mo fence="true" stretchy="true">|</mo>
+               <mrow>
+                <mfrac>
+                 <mrow>
+                  <mi mathvariant="italic">arccosh</mi>
+                  <mrow>
+                   <mrow>
+                    <mo fence="true" stretchy="false">(</mo>
+                    <mrow>
+                     <msub>
+                      <mi>k</mi>
+                      <mi>x</mi>
+                     </msub>
+                    </mrow>
+                    <mo fence="true" stretchy="false">)</mo>
+                   </mrow>
+                   <mo stretchy="false">+</mo>
+                   <mi>arctan</mi>
+                  </mrow>
+                  <mrow>
+                   <mo fence="true" stretchy="false">(</mo>
+                   <mrow>
+                    <msub>
+                     <mi>r</mi>
+                     <mi>i</mi>
+                    </msub>
+                   </mrow>
+                   <mo fence="true" stretchy="false">)</mo>
+                  </mrow>
+                 </mrow>
+                 <mrow>
+                  <msub>
+                   <mi>log</mi>
+                   <msub>
+                    <mi>r</mi>
+                    <mi>i</mi>
+                   </msub>
+                  </msub>
+                  <mrow>
+                   <mo fence="true" stretchy="false">(</mo>
+                   <mrow>
+                    <mrow>
+                     <mo fence="true" stretchy="true">|</mo>
+                     <mrow>
+                      <mrow>
+                       <mi>arcsin</mi>
+                       <mrow>
+                        <mo fence="true" stretchy="false">(</mo>
+                        <mrow>
+                         <mrow>
+                          <mroot>
+                           <msub>
+                            <mi>k</mi>
+                            <mi>x</mi>
+                           </msub>
+                           <mn>5.1</mn>
+                          </mroot>
+                          <mo stretchy="false">−</mo>
+                          <mn>2</mn>
+                         </mrow>
+                        </mrow>
+                        <mo fence="true" stretchy="false">)</mo>
+                       </mrow>
+                      </mrow>
+                     </mrow>
+                     <mo fence="true" stretchy="true">|</mo>
+                    </mrow>
+                   </mrow>
+                   <mo fence="true" stretchy="false">)</mo>
+                  </mrow>
+                 </mrow>
+                </mfrac>
+               </mrow>
+               <mo fence="true" stretchy="true">|</mo>
+              </mrow>
+              <mo stretchy="false">+</mo>
+              <mn>25</mn>
+             </mrow>
+            </mrow>
+            <mo fence="true" stretchy="false">)</mo>
+           </mrow>
+           <mo stretchy="false">+</mo>
+           <mrow>
+            <munderover>
+             <mo stretchy="false">∫</mo>
+             <msub>
+              <mi>k</mi>
+              <mi>x</mi>
+             </msub>
+             <mrow>
+              <msub>
+               <mi>k</mi>
+               <mi>x</mi>
+              </msub>
+              <mo stretchy="false">+</mo>
+              <mn>6</mn>
+             </mrow>
+            </munderover>
+            <msqrt>
+             <mrow>
+              <mi>cosh</mi>
+              <mrow>
+               <mo fence="true" stretchy="false">(</mo>
+               <mrow>
+                <mrow>
+                 <mi>ln</mi>
+                 <mrow>
+                  <mo fence="true" stretchy="false">(</mo>
+                  <mrow>
+                   <mrow>
+                    <mi>t</mi>
+                    <mo stretchy="false">+</mo>
+                    <mn>1</mn>
+                   </mrow>
+                  </mrow>
+                  <mo fence="true" stretchy="false">)</mo>
+                 </mrow>
+                </mrow>
+               </mrow>
+               <mo fence="true" stretchy="false">)</mo>
+              </mrow>
+             </mrow>
+            </msqrt>
+           </mrow>
+          </mrow>
+          <mi mathvariant="italic">dt</mi>
+         </mrow>
+         <mrow>
+          <munderover>
+           <mo stretchy="false">∑</mo>
+           <mrow>
+            <mi>x</mi>
+            <mo stretchy="false">=</mo>
+            <mn>1</mn>
+           </mrow>
+           <mrow>
+            <mi>k</mi>
+            <mi>.</mi>
+            <mi mathvariant="italic">len</mi>
+           </mrow>
+          </munderover>
+          <mrow>
+           <munderover>
+            <mo stretchy="false">∏</mo>
+            <mrow>
+             <mi>i</mi>
+             <mo stretchy="false">=</mo>
+             <msub>
+              <mi>k</mi>
+              <mi>x</mi>
+             </msub>
+            </mrow>
+            <mrow>
+             <msub>
+              <mi>k</mi>
+              <mi>x</mi>
+             </msub>
+             <mo stretchy="false">+</mo>
+             <mn>5</mn>
+            </mrow>
+           </munderover>
+           <mrow>
+            <mo fence="true" stretchy="true">|</mo>
+            <mrow>
+             <mrow>
+              <mi>arcsin</mi>
+              <mrow>
+               <mrow>
+                <mo fence="true" stretchy="false">(</mo>
+                <mrow>
+                 <mrow>
+                  <mroot>
+                   <mrow>
+                    <mo fence="true" stretchy="true">|</mo>
+                    <mrow>
+                     <mrow>
+                      <mrow>
+                       <mo fence="true" stretchy="false">(</mo>
+                       <mrow>
+                        <mrow>
+                         <mi>i</mi>
+                         <mo stretchy="false">+</mo>
+                         <mn>1</mn>
+                        </mrow>
+                       </mrow>
+                       <mo fence="true" stretchy="false">)</mo>
+                      </mrow>
+                      <mi>sin</mi>
+                      <mrow>
+                       <mo fence="true" stretchy="false">(</mo>
+                       <mrow>
+                        <msub>
+                         <mi>k</mi>
+                         <mi>x</mi>
+                        </msub>
+                       </mrow>
+                       <mo fence="true" stretchy="false">)</mo>
+                      </mrow>
+                     </mrow>
+                    </mrow>
+                    <mo fence="true" stretchy="true">|</mo>
+                   </mrow>
+                   <mn>5.1</mn>
+                  </mroot>
+                  <mo stretchy="false">−</mo>
+                  <mn>2</mn>
+                 </mrow>
+                </mrow>
+                <mo fence="true" stretchy="false">)</mo>
+               </mrow>
+               <mo stretchy="false">+</mo>
+               <mi>e</mi>
+              </mrow>
+             </mrow>
+            </mrow>
+            <mo fence="true" stretchy="true">|</mo>
+           </mrow>
+          </mrow>
+         </mrow>
+        </mfrac>
+        <mo stretchy="false">⊕</mo>
+        <mfrac>
+         <mrow>
+          <munderover>
+           <mo stretchy="false">∑</mo>
+           <mrow>
+            <mi>x</mi>
+            <mo stretchy="false">=</mo>
+            <mn>1</mn>
+           </mrow>
+           <mrow>
+            <mi>k</mi>
+            <mi>.</mi>
+            <mi mathvariant="italic">len</mi>
+           </mrow>
+          </munderover>
+          <mrow>
+           <munderover>
+            <mo stretchy="false">∑</mo>
+            <mrow>
+             <mi>n</mi>
+             <mo stretchy="false">=</mo>
+             <msub>
+              <mi>k</mi>
+              <mi>x</mi>
+             </msub>
+            </mrow>
+            <mrow>
+             <msub>
+              <mi>k</mi>
+              <mi>x</mi>
+             </msub>
+             <mo stretchy="false">+</mo>
+             <mrow>
+              <mo fence="true" stretchy="false">⌈</mo>
+              <mrow>
+               <msqrt>
+                <msub>
+                 <mi>k</mi>
+                 <mi>x</mi>
+                </msub>
+               </msqrt>
+              </mrow>
+              <mo fence="true" stretchy="false">⌉</mo>
+             </mrow>
+            </mrow>
+           </munderover>
+           <mrow>
+            <mo fence="true" stretchy="true">|</mo>
+            <mrow>
+             <mrow>
+              <mi>sin</mi>
+              <mrow>
+               <mo fence="true" stretchy="false">(</mo>
+               <mrow>
+                <mrow>
+                 <msub>
+                  <mi>k</mi>
+                  <mi>x</mi>
+                 </msub>
+                 <mrow>
+                  <mo fence="true" stretchy="true">|</mo>
+                  <mrow>
+                   <mfrac>
+                    <mrow>
+                     <msup>
+                      <mn>10</mn>
+                      <mn>2</mn>
+                     </msup>
+                     <mi>arccos</mi>
+                     <mrow>
+                      <mo fence="true" stretchy="false">(</mo>
+                      <mrow>
+                       <mrow>
+                        <mroot>
+                         <mrow>
+                          <mi>n</mi>
+                          <mo stretchy="false">+</mo>
+                          <mn>1</mn>
+                         </mrow>
+                         <mn>5.2</mn>
+                        </mroot>
+                        <mo stretchy="false">−</mo>
+                        <mn>2</mn>
+                       </mrow>
+                      </mrow>
+                      <mo fence="true" stretchy="false">)</mo>
+                     </mrow>
+                    </mrow>
+                    <mrow>
+                     <msub>
+                      <mi>k</mi>
+                      <mi>x</mi>
+                     </msub>
+                     <mtext>%</mtext>
+                     <mrow>
+                      <mn>6</mn>
+                      <mo stretchy="false">+</mo>
+                      <mn>1</mn>
+                     </mrow>
+                    </mrow>
+                   </mfrac>
+                  </mrow>
+                  <mo fence="true" stretchy="true">|</mo>
+                 </mrow>
+                </mrow>
+               </mrow>
+               <mo fence="true" stretchy="false">)</mo>
+              </mrow>
+             </mrow>
+            </mrow>
+            <mo fence="true" stretchy="true">|</mo>
+           </mrow>
+          </mrow>
+         </mrow>
+         <mrow>
+          <mrow>
+           <munderover>
+            <mo stretchy="false">∑</mo>
+            <mrow>
+             <mi>x</mi>
+             <mo stretchy="false">=</mo>
+             <mn>1</mn>
+            </mrow>
+            <mrow>
+             <mi>k</mi>
+             <mi>.</mi>
+             <mi mathvariant="italic">len</mi>
+            </mrow>
+           </munderover>
+           <mi>sin</mi>
+          </mrow>
+          <mrow>
+           <mo fence="true" stretchy="false">(</mo>
+           <mrow>
+            <mrow>
+             <mn>6</mn>
+             <msubsup>
+              <mi>k</mi>
+              <mi>x</mi>
+              <mfrac>
+               <mn>1</mn>
+               <mn>2</mn>
+              </mfrac>
+             </msubsup>
+             <mrow>
+              <munderover>
+               <mo stretchy="false">∫</mo>
+               <mrow>
+                <mo fence="true" stretchy="false">⌊</mo>
+                <mrow>
+                 <msqrt>
+                  <msub>
+                   <mi>k</mi>
+                   <mi>x</mi>
+                  </msub>
+                 </msqrt>
+                </mrow>
+                <mo fence="true" stretchy="false">⌋</mo>
+               </mrow>
+               <mrow>
+                <mo fence="true" stretchy="false">(</mo>
+                <mrow>
+                 <mrow>
+                  <mrow>
+                   <mo fence="true" stretchy="false">⌈</mo>
+                   <mrow>
+                    <msub>
+                     <mi>k</mi>
+                     <mi>x</mi>
+                    </msub>
+                   </mrow>
+                   <mo fence="true" stretchy="false">⌉</mo>
+                  </mrow>
+                  <mo stretchy="false">+</mo>
+                  <mn>1</mn>
+                 </mrow>
+                </mrow>
+                <mo fence="true" stretchy="false">)</mo>
+               </mrow>
+              </munderover>
+              <mfrac>
+               <mrow>
+                <msup>
+                 <mi>u</mi>
+                 <mn>2</mn>
+                </msup>
+                <mo stretchy="false">−</mo>
+                <mn>2</mn>
+               </mrow>
+               <mrow>
+                <mrow>
+                 <mo fence="true" stretchy="false">(</mo>
+                 <mrow>
+                  <mrow>
+                   <mrow>
+                    <msup>
+                     <mi>u</mi>
+                     <mn>4</mn>
+                    </msup>
+                    <mo stretchy="false">+</mo>
+                    <mn>5</mn>
+                   </mrow>
+                   <mrow>
+                    <msup>
+                     <mi>u</mi>
+                     <mn>2</mn>
+                    </msup>
+                    <mo stretchy="false">+</mo>
+                    <mn>4</mn>
+                   </mrow>
+                  </mrow>
+                 </mrow>
+                 <mo fence="true" stretchy="false">)</mo>
+                </mrow>
+                <mi>arctan</mi>
+                <mrow>
+                 <mo fence="true" stretchy="false">(</mo>
+                 <mrow>
+                  <mfrac>
+                   <mrow>
+                    <msup>
+                     <mi>u</mi>
+                     <mn>2</mn>
+                    </msup>
+                    <mo stretchy="false">+</mo>
+                    <mn>2</mn>
+                   </mrow>
+                   <mi>u</mi>
+                  </mfrac>
+                 </mrow>
+                 <mo fence="true" stretchy="false">)</mo>
+                </mrow>
+               </mrow>
+              </mfrac>
+             </mrow>
+             <mi mathvariant="italic">du</mi>
+            </mrow>
+           </mrow>
+           <mo fence="true" stretchy="false">)</mo>
+          </mrow>
+         </mrow>
+        </mfrac>
+       </mrow>
+      </mrow>
+     </mrow>
+    </mtd>
+   </mtr>
+  </mtable>
+  <annotation encoding="StarMath 5.0">R_0(k) = sum from {x=1} to {k.len} log_ nroot{4}{k_x}(s) oplus sum from {x=1} to {6}log_nroot{3}k_x(r_i)
+newline
+R_1(k)= sum from {x=1} to {k.len} sum from {i=1} to {6} arccos(nroot{8}{k_x}-1)-log_(k_x^2)(r_i)oplus sum from {x=1} to {k.len} sum from {i=1} to {6} (1 over {arctan(k_x oplus r_i) + 1})
+newline
+R_2(k)= sum from {x=1} to {k.len} sum from {i=1} to {6} sqrt {k_x^2 + r_i^2 - 2k_x r_i cos(S)} oplus sum from {x=1} to {k.len} sum from {i=1} to {6} ln(nroot{5} {k_x r_i})
+newline
+R_3(k) = sum from {x=1} to {k.len} ({1} over sum from {i=1} to {6}  abs{sin(log_nroot{5}{k_x}(k_x + r_i + S + 1))}) oplus sum from {x=1} to {k.len} prod (nroot {3} {k_x} over r_i  + 1)
+newline
+R_4(k) = sum from x=1 to {k.len} sum from i=1 to 14 ({1} over {log_nroot{3}k_x(b_i) + 1}) oplus sum from {x=1} to {k.len} sum from {i=1} to {6} abs(arcsin((nroot{8}{k_x}-1)sin(r_i)))
+newline
+R_5(k)= sum from x=1 to {k.len} sum from i=1 to 6 (int from -nroot 4 {k_x r_i} to {r_i abs {cos(sqrt k_x)}} sin(u)du) log_{k_x}(r_i) oplus sum from x=1 to {k.len} sum from i=1 to 6 {- nroot 3 {abs {cos(sqrt x)}}} log_{k_x} r_i
+newline
+R_6(k)= sum from x=1 to {k.len} prod from i=1 to 6 {{arctan(nroot 4 {r_i k_x})} over {log_{k_x}(abs {csc(sqrt {k_x r_i} + S)})}} + 1 oplus sum from x=1 to {k.len} abs {int from -25 to 25 cos(k_x u)du} int from {- nroot 3 k_x} to k_x sin(2u) + 1 du
+newline
+R_7(k)= sum from x=1 to {k.len} prod from i=1 to 6 abs{log {k_x r_i %  lceil sqrt {k_x r_i + k_x + r_i} rceil} over {arcsin(nroot 8 {{nroot 3 {k_x r_i + cos(x)}} over {k_x + r_i}})} + nroot 8 k_x} oplus sum from x=1 to {k.len} sum from i=1 to 6 {{k_x^2 + r_i^2 + S + s} over {abs {log_{k_x} (k_x r_i % ((k_x oplus r_i) + 6 + r_i))}}}
+newline
+R_8(k)= sum from x=1 to {k.len} sum from i=1 to 6 {({abs {sin (k_x)} nroot 3 x} over {x})^ abs{sin(k_x r_i)}k_x^{5 over 6}} oplus sum from x=1 to {k.len} {{k_x^2 + r_{{lfloor nroot 3 k_x rfloor}-1}^2} over {log (k_x r_i)}}
+newline
+R_9(k)= sum from x=1 to {k.len} sum from i=1 to 6 {{log_{r_i}((k_x oplus r_i) + 1)} over {sin(k_x) + 1}} oplus sum from x=1 to {k.len} sum from i=1 to 6 {{abs {log_ {r_i}((k_x oplus r_i oplus S) + 1) + k_x}}^3 over {(k_x^2 oplus r_i^2) sin(k_x) + 1}}
+newline
+R_10(k)= sum from x=1 to {k.len} {{e^{nroot 3 k_x} -e^{- nroot 3 k_x}} over {2}} oplus sum from x=1 to {k.len} {{1} over {log_{k_x}(nroot {sqrt x} {{e^{nroot 3 k_x}+ e^{- nroot 3 k_x}} over {2}})}}
+newline
+R_11(k)= sum from x=1 to {k.len} sqrt k_x (k_x^2 - k_x + k_x^3 + 25)^{{-kx {1} wideslash {2} cos(e %pi x) +2sin(x)} over {x}}
+newline
+R_12(k)= {sum from x=1 to {k.len} sum from i=1 to 6 {{k_x^2 r_i +s + k_x} over {log_{%pi k_x}((k_x + k_x^2 + k_x^3) % (lceil sqrt k_x rceil + x))}}} over {sum from x=1 to {k.len} sqrt {abs {{sin(sqrt k_x)} over {log_{k_x}(9)} + {cos(sqrt k_x)} over {ln(sqrt k_x)}}}} oplus sum from x=1 to {k.len} abs{{arcsin(nroot 5.1 k_x - 2)} over {arccos(nroot 8 k_x - 1)}}
+
+newline
+R_15(k)= {sum from i=1 to 6 sum from x=1 to {k.len} ln(abs{{arccosh(k_x) + arctan(r_i)} over {log_{r_i}(abs{arcsin(nroot 5.1 k_x -2)})}} + 25) + int from k_x to {k_x+6} sqrt {cosh(ln(t+1))}dt} over {sum from x=1 to {k.len} prod from i=k_x to {k_x + 5} abs{arcsin(nroot 5.1 {abs{(i + 1)sin(k_x)}}-2)+e}} oplus {{sum from x=1 to {k.len} sum from n=k_x to {k_x+ lceil sqrt k_x rceil} abs{sin(k_x abs{{10^2arccos(nroot 5.2 {n+1}-2)} over {k_x % 6+1}})}} over {sum from x=1 to {k.len} sin(6k_x^{1 over 2} int from {lfloor sqrt k_x rfloor} to (lceil {k_x} rceil +1) {{u^2 -2} over {(u^4+5u^2+4)arctan({u^2+2} over u)}}du)}}</annotation>
+ </semantics>
+</math>
