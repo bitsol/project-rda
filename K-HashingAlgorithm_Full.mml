@@ -2293,6 +2293,378 @@
      <mrow>
       <msub>
        <mi>R</mi>
+       <mn>13</mn>
+      </msub>
+      <mrow>
+       <mrow>
+        <mo fence="true" stretchy="false">(</mo>
+        <mrow>
+         <mi>k</mi>
+        </mrow>
+        <mo fence="true" stretchy="false">)</mo>
+       </mrow>
+       <mo stretchy="false">=</mo>
+       <mrow>
+        <mrow>
+         <mo fence="true" stretchy="false">(</mo>
+         <mrow>
+          <mrow>
+           <munderover>
+            <mo stretchy="false">∑</mo>
+            <mrow>
+             <mi>x</mi>
+             <mo stretchy="false">=</mo>
+             <mn>1</mn>
+            </mrow>
+            <mrow>
+             <mi>k</mi>
+             <mi>.</mi>
+             <mi mathvariant="italic">len</mi>
+            </mrow>
+           </munderover>
+           <mrow>
+            <munderover>
+             <mo stretchy="false">∑</mo>
+             <mrow>
+              <mi>n</mi>
+              <mo stretchy="false">=</mo>
+              <msub>
+               <mi>k</mi>
+               <mi>x</mi>
+              </msub>
+             </mrow>
+             <mrow>
+              <msub>
+               <mi>k</mi>
+               <mi>x</mi>
+              </msub>
+              <mo stretchy="false">+</mo>
+              <mn>6</mn>
+             </mrow>
+            </munderover>
+            <mrow>
+             <mo fence="true" stretchy="false">(</mo>
+             <mrow>
+              <mrow>
+               <mi>arctan</mi>
+               <mrow>
+                <mo fence="true" stretchy="false">(</mo>
+                <mrow>
+                 <mroot>
+                  <msub>
+                   <mi>k</mi>
+                   <mi>x</mi>
+                  </msub>
+                  <mrow>
+                   <mi>tan</mi>
+                   <mrow>
+                    <mo fence="true" stretchy="false">(</mo>
+                    <mrow>
+                     <mi>n</mi>
+                    </mrow>
+                    <mo fence="true" stretchy="false">)</mo>
+                   </mrow>
+                  </mrow>
+                 </mroot>
+                </mrow>
+                <mo fence="true" stretchy="false">)</mo>
+               </mrow>
+              </mrow>
+             </mrow>
+             <mo fence="true" stretchy="false">)</mo>
+            </mrow>
+           </mrow>
+          </mrow>
+         </mrow>
+         <mo fence="true" stretchy="false">)</mo>
+        </mrow>
+        <mo stretchy="false">⊕</mo>
+        <mrow>
+         <mo fence="true" stretchy="false">(</mo>
+         <mrow>
+          <mrow>
+           <mrow>
+            <munderover>
+             <mo stretchy="false">∑</mo>
+             <mrow>
+              <mi>x</mi>
+              <mo stretchy="false">=</mo>
+              <mn>1</mn>
+             </mrow>
+             <mrow>
+              <mi>k</mi>
+              <mi>.</mi>
+              <mi mathvariant="italic">len</mi>
+             </mrow>
+            </munderover>
+            <mrow>
+             <munderover>
+              <mo stretchy="false">∫</mo>
+              <msub>
+               <mi>k</mi>
+               <mi>x</mi>
+              </msub>
+              <mrow>
+               <msub>
+                <mi>k</mi>
+                <mi>x</mi>
+               </msub>
+               <mo stretchy="false">+</mo>
+               <mn>3</mn>
+              </mrow>
+             </munderover>
+             <mi>sin</mi>
+            </mrow>
+           </mrow>
+           <mrow>
+            <mrow>
+             <mo fence="true" stretchy="false">(</mo>
+             <mrow>
+              <mi>u</mi>
+             </mrow>
+             <mo fence="true" stretchy="false">)</mo>
+            </mrow>
+            <mo stretchy="false">+</mo>
+            <mn>1</mn>
+           </mrow>
+           <mi mathvariant="italic">du</mi>
+          </mrow>
+         </mrow>
+         <mo fence="true" stretchy="false">)</mo>
+        </mrow>
+       </mrow>
+      </mrow>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <msub>
+       <mi>R</mi>
+       <mn>14</mn>
+      </msub>
+      <mrow>
+       <mrow>
+        <mo fence="true" stretchy="false">(</mo>
+        <mrow>
+         <mi>k</mi>
+        </mrow>
+        <mo fence="true" stretchy="false">)</mo>
+       </mrow>
+       <mo stretchy="false">=</mo>
+       <mrow>
+        <mrow>
+         <mo fence="true" stretchy="false">(</mo>
+         <mrow>
+          <mrow>
+           <munderover>
+            <mo stretchy="false">∑</mo>
+            <mrow>
+             <mi>x</mi>
+             <mo stretchy="false">=</mo>
+             <mn>1</mn>
+            </mrow>
+            <mrow>
+             <mi>k</mi>
+             <mi>.</mi>
+             <mi mathvariant="italic">len</mi>
+            </mrow>
+           </munderover>
+           <mrow>
+            <munderover>
+             <mo stretchy="false">∑</mo>
+             <mrow>
+              <mrow>
+               <mi>n</mi>
+               <mo stretchy="false">=</mo>
+               <mi mathvariant="italic">mod</mi>
+              </mrow>
+              <mrow>
+               <mrow>
+                <mo fence="true" stretchy="false">(</mo>
+                <mrow>
+                 <mrow>
+                  <msub>
+                   <mi>k</mi>
+                   <mi>x</mi>
+                  </msub>
+                  <mi>,</mi>
+                  <mn>10</mn>
+                 </mrow>
+                </mrow>
+                <mo fence="true" stretchy="false">)</mo>
+               </mrow>
+               <mo stretchy="false">+</mo>
+               <mn>1</mn>
+              </mrow>
+             </mrow>
+             <msub>
+              <mi>k</mi>
+              <mi>x</mi>
+             </msub>
+            </munderover>
+            <mrow>
+             <mo fence="true" stretchy="false">(</mo>
+             <mrow>
+              <mfrac>
+               <mrow>
+                <mo fence="true" stretchy="false">(</mo>
+                <mrow>
+                 <mrow>
+                  <mi>log</mi>
+                  <mmultiscripts>
+                   <mrow>
+                    <mo fence="true" stretchy="false">(</mo>
+                    <mrow>
+                     <mrow>
+                      <mo fence="true" stretchy="false">(</mo>
+                      <mrow>
+                       <mrow>
+                        <mi>tanh</mi>
+                        <mrow>
+                         <mo fence="true" stretchy="false">(</mo>
+                         <mrow>
+                          <mroot>
+                           <mi>n</mi>
+                           <msub>
+                            <mi>k</mi>
+                            <mi>x</mi>
+                           </msub>
+                          </mroot>
+                         </mrow>
+                         <mo fence="true" stretchy="false">)</mo>
+                        </mrow>
+                       </mrow>
+                      </mrow>
+                      <mo fence="true" stretchy="false">)</mo>
+                     </mrow>
+                    </mrow>
+                    <mo fence="true" stretchy="false">)</mo>
+                   </mrow>
+                   <mprescripts/>
+                   <mn>2</mn>
+                   <none/>
+                  </mmultiscripts>
+                 </mrow>
+                </mrow>
+                <mo fence="true" stretchy="false">)</mo>
+               </mrow>
+               <mrow>
+                <mi mathvariant="italic">arctanh</mi>
+                <mrow>
+                 <mrow>
+                  <mo fence="true" stretchy="false">(</mo>
+                  <mrow>
+                   <mrow>
+                    <mroot>
+                     <mi>n</mi>
+                     <mn>8</mn>
+                    </mroot>
+                    <mo stretchy="false">−</mo>
+                    <mn>1</mn>
+                   </mrow>
+                  </mrow>
+                  <mo fence="true" stretchy="false">)</mo>
+                 </mrow>
+                 <mo stretchy="false">∗</mo>
+                 <mi>sin</mi>
+                </mrow>
+                <mrow>
+                 <mo fence="true" stretchy="false">(</mo>
+                 <mrow>
+                  <mi>n</mi>
+                 </mrow>
+                 <mo fence="true" stretchy="false">)</mo>
+                </mrow>
+               </mrow>
+              </mfrac>
+             </mrow>
+             <mo fence="true" stretchy="false">)</mo>
+            </mrow>
+           </mrow>
+          </mrow>
+         </mrow>
+         <mo fence="true" stretchy="false">)</mo>
+        </mrow>
+        <mo stretchy="false">⊕</mo>
+        <mi>log</mi>
+       </mrow>
+      </mrow>
+      <mrow>
+       <mo fence="true" stretchy="false">(</mo>
+       <mrow>
+        <mfrac>
+         <mn>1</mn>
+         <mrow>
+          <mfrac>
+           <mrow>
+            <mi>arctan</mi>
+            <mrow>
+             <mo fence="true" stretchy="false">(</mo>
+             <mrow>
+              <mrow>
+               <mi>x</mi>
+               <mo stretchy="false">+</mo>
+               <mn>1</mn>
+              </mrow>
+             </mrow>
+             <mo fence="true" stretchy="false">)</mo>
+            </mrow>
+           </mrow>
+           <mrow>
+            <mi>tanh</mi>
+            <mrow>
+             <mo fence="true" stretchy="false">(</mo>
+             <mrow>
+              <mrow>
+               <mi>x</mi>
+               <mo stretchy="false">+</mo>
+               <mn>1</mn>
+              </mrow>
+             </mrow>
+             <mo fence="true" stretchy="false">)</mo>
+            </mrow>
+           </mrow>
+          </mfrac>
+          <mo stretchy="false">∗</mo>
+          <mfrac>
+           <mroot>
+            <mrow>
+             <mi>x</mi>
+             <mo stretchy="false">+</mo>
+             <mn>1</mn>
+            </mrow>
+            <mn>3</mn>
+           </mroot>
+           <mrow>
+            <mi>cosh</mi>
+            <mrow>
+             <mo fence="true" stretchy="false">(</mo>
+             <mrow>
+              <mrow>
+               <mi>x</mi>
+               <mo stretchy="false">+</mo>
+               <mn>1</mn>
+              </mrow>
+             </mrow>
+             <mo fence="true" stretchy="false">)</mo>
+            </mrow>
+           </mrow>
+          </mfrac>
+         </mrow>
+        </mfrac>
+       </mrow>
+       <mo fence="true" stretchy="false">)</mo>
+      </mrow>
+     </mrow>
+    </mtd>
+   </mtr>
+   <mtr>
+    <mtd>
+     <mrow>
+      <msub>
+       <mi>R</mi>
        <mn>15</mn>
       </msub>
       <mrow>
@@ -2834,7 +3206,10 @@ newline
 R_11(k)= sum from x=1 to {k.len} sqrt k_x (k_x^2 - k_x + k_x^3 + 25)^{{-kx {1} wideslash {2} cos(e %pi x) +2sin(x)} over {x}}
 newline
 R_12(k)= {sum from x=1 to {k.len} sum from i=1 to 6 {{k_x^2 r_i +s + k_x} over {log_{%pi k_x}((k_x + k_x^2 + k_x^3) % (lceil sqrt k_x rceil + x))}}} over {sum from x=1 to {k.len} sqrt {abs {{sin(sqrt k_x)} over {log_{k_x}(9)} + {cos(sqrt k_x)} over {ln(sqrt k_x)}}}} oplus sum from x=1 to {k.len} abs{{arcsin(nroot 5.1 k_x - 2)} over {arccos(nroot 8 k_x - 1)}}
-
+newline
+R_13( k ) = (sum from {x=1} to {k.len}sum from { n=k_x } to { k_x + 6 }( arctan( nroot{tan(n)}{k_{x}})  )) oplus ( sum from {x=1} to {k.len}  int from{k_x} to {k_x + 3} sin(u) + 1du ) 
+newline
+R_14( k ) = ( sum from {x=1} to {k.len} sum from {n=mod(k_x,10) + 1} to {k_x}( (log (( tanh( nroot{k_x}{n} ) )) lsub{2}   ) over { arctanh( nroot{8}{n} - 1 ) * sin(n) })) oplus  log({1} over {{{arctan(x+1)} over {tanh(x+1)}} * {{nroot{3}{x+1}} over {cosh(x+1)} }} ) 
 newline
 R_15(k)= {sum from i=1 to 6 sum from x=1 to {k.len} ln(abs{{arccosh(k_x) + arctan(r_i)} over {log_{r_i}(abs{arcsin(nroot 5.1 k_x -2)})}} + 25) + int from k_x to {k_x+6} sqrt {cosh(ln(t+1))}dt} over {sum from x=1 to {k.len} prod from i=k_x to {k_x + 5} abs{arcsin(nroot 5.1 {abs{(i + 1)sin(k_x)}}-2)+e}} oplus {{sum from x=1 to {k.len} sum from n=k_x to {k_x+ lceil sqrt k_x rceil} abs{sin(k_x abs{{10^2arccos(nroot 5.2 {n+1}-2)} over {k_x % 6+1}})}} over {sum from x=1 to {k.len} sin(6k_x^{1 over 2} int from {lfloor sqrt k_x rfloor} to (lceil {k_x} rceil +1) {{u^2 -2} over {(u^4+5u^2+4)arctan({u^2+2} over u)}}du)}}</annotation>
  </semantics>
