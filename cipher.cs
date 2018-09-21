@@ -184,7 +184,7 @@ namespace RDA_Encryption_Algorithms
                     for (int g = j; g < Key.Length; g += 8)
                     {
                         Key[g] = (byte)(Key[g] ^ IV[(g - j) / 8]);
-                        IV[(g - j) / 8] = Key[g];
+                        IV[(g - j) / 8] = Key[g]; //Fixed
                     }
                 }
                 //MDS
