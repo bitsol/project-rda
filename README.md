@@ -2,10 +2,10 @@
 Project RDA.
 ## References
 ### Cipher
-![cipher description](https://cdn.discordapp.com/attachments/448876129831485442/459416495106293773/Sequence.png)
+![cipher description](https://raw.githubusercontent.com/project-rda/references/master/images/cipher_sequence.png)
 ### Alex's key schedule
-![key schedule](https://cdn.discordapp.com/attachments/448876129831485442/460555801321275402/KeySchedule.png)
+![key schedule](https://raw.githubusercontent.com/project-rda/references/master/images/key_schedule.png)
 ### Algorithm equations
 #### [MathML Equation file](https://github.com/project-rda/references/blob/master/K-HashingAlgorithm_Full.mml)
 #### Alex's reference diagram
-![hashing algorithm](https://cdn.discordapp.com/attachments/448876129831485442/460613450838835202/Algorithm2.png)
+![hashing algorithm](https://raw.githubusercontent.com/project-rda/references/master/images/key_hash_algorithm_math.png)
