@@ -19,3 +19,15 @@ Project RDA.
 #### Alex's reference diagram
 
 ![hashing algorithm](https://raw.githubusercontent.com/project-rda/references/master/images/key_hash_algorithm_math.png)
+
+## Instructions to Build/Deploy [landing page](https://project-rda.surge.sh) from README
+
+[Ping](https://github.com/project-rda/references/issues/new) [@sgvictorino](https://github.com/sgvictorino) if you have any questions about this process.
+
+Start at project root:
+
+```
+npx docpress build
+cd _docpress
+surge .
+```
