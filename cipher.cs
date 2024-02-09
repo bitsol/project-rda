@@ -92,7 +92,7 @@ namespace RDA_Encryption_Algorithms
         {
             int remainder = word[0];
             byte[] asymmetric = new byte[word.Length - 1 - remainder];
-            for (int i = 1; i < asymmetric.Length; i++)
+            for (int i = 1; i < asymmetric.Length + 1; i++) //fixed
             {
                 asymmetric[i - 1] = word[i];
             }
